@@ -1,0 +1,53 @@
+[0m[[0minfo[0m] [0mscalastyle using config /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/scalastyle-config.xml[0m
+[0m[[0mdebug[0m] [0mStarting scalastyle[0m
+[0m[[0mdebug[0m] [0mstart file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/common/package.scala[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/common/package.scala:1: Header does not match expected text[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/common/package.scala:36:4: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/common/package.scala:24:6: Public method must have explicit type[0m
+[0m[[0mdebug[0m] [0mend file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/common/package.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Bloxorz.scala[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Bloxorz.scala:1: Header does not match expected text[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Bloxorz.scala:14:19: Magic Number[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Bloxorz.scala:14:21: Magic Number[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Bloxorz.scala:17:2: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Bloxorz.scala:33:2: Regular expression matched 'println'[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Bloxorz.scala:48:2: Regular expression matched 'println'[0m
+[0m[[0mdebug[0m] [0mend file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Bloxorz.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:1: Header does not match expected text[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:114:42: Magic Number[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:115:46: Magic Number[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:124:42: Magic Number[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:126:46: Magic Number[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:114:15: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:115:20: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:119:16: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:120:21: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:124:13: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:125:18: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:129:15: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:130:20: If block needs braces[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:36:8: Public method must have explicit type[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:39:8: Public method must have explicit type[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:104:8: Public method must have explicit type[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:110:8: Public method must have explicit type[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:114:8: Public method must have explicit type[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:119:8: Public method must have explicit type[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:124:8: Public method must have explicit type[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala:129:8: Public method must have explicit type[0m
+[0m[[0mdebug[0m] [0mend file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/GameDef.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/InfiniteTerrain.scala[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/InfiniteTerrain.scala:1: Header does not match expected text[0m
+[0m[[0mdebug[0m] [0mend file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/InfiniteTerrain.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Solver.scala[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Solver.scala:1: Header does not match expected text[0m
+[0m[[0mdebug[0m] [0mend file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/Solver.scala[0m
+[0m[[0mdebug[0m] [0mstart file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/StringParserTerrain.scala[0m
+[0m[[33mwarn[0m] [0m/Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/StringParserTerrain.scala:1: Header does not match expected text[0m
+[0m[[0mdebug[0m] [0mend file /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/src/main/scala/streams/StringParserTerrain.scala[0m
+[0m[[0minfo[0m] [0mProcessed 6 file(s)[0m
+[0m[[0minfo[0m] [0mFound 0 errors[0m
+[0m[[0minfo[0m] [0mFound 33 warnings[0m
+[0m[[0minfo[0m] [0mFound 0 infos[0m
+[0m[[0minfo[0m] [0mFinished in 19 ms[0m
+[0m[[32msuccess[0m] [0mcreated output: /Users/omarsaber/Desktop/functional programming desing/Week 2/streams/target[0m
