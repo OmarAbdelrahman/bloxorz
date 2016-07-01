@@ -54,8 +54,7 @@ trait StringParserTerrain extends GameDef {
     position => {
       val (x, y) = (position.x, position.y)
       val inside = x >= 0 && x < levelVector.length && y >= 0 && y < levelVector(x).length
-      val notDash = levelVector(x)(y) != '-'
-      inside && notDash
+      inside && levelVector(x)(y) != '-'
     }
   }
 

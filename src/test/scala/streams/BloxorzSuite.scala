@@ -1,11 +1,8 @@
 package streams
 
-import org.scalatest.FunSuite
-
 import org.junit.runner.RunWith
+import org.scalatest.FunSuite
 import org.scalatest.junit.JUnitRunner
-
-import Bloxorz._
 
 @RunWith(classOf[JUnitRunner])
 class BloxorzSuite extends FunSuite {
@@ -40,6 +37,9 @@ class BloxorzSuite extends FunSuite {
     val optsolution = List(Right, Right, Down, Right, Right, Right, Down)
   }
 
+  trait NeighborsWithHistory extends Level1
+
+  trait NewNeighborsOnly extends Level1
 
 	test("terrain function level 1") {
     new Level1 {
@@ -62,6 +62,32 @@ class BloxorzSuite extends FunSuite {
     }
   }
 
+  test("assert neighbours with history 1") {
+    new NeighborsWithHistory {
+      val shouldBeResult = Set(
+        (Block(Pos(1,2),Pos(1,3)), List(Right,Left,Up)),
+        (Block(Pos(2,1),Pos(3,1)), List(Down,Left,Up))
+      ).toStream
+      assert(neighborsWithHistory(Block(Pos(1, 1), Pos(1, 1)), List(Left, Up)) == shouldBeResult)
+    }
+  }
+
+  test("assert new neighbors only 1") {
+    new NewNeighborsOnly {
+      val neighbors = Set(
+        (Block(Pos(1,2),Pos(1,3)), List(Right,Left,Up)),
+        (Block(Pos(2,1),Pos(3,1)), List(Down,Left,Up))
+      ).toStream
+
+      val explored = Set(Block(Pos(1,2),Pos(1,3)), Block(Pos(1,1),Pos(1,1)))
+
+      val shouldBeResult = Set(
+        (Block(Pos(2,1),Pos(3,1)), List(Down,Left,Up))
+      ).toStream
+
+      assert(newNeighborsOnly(neighbors, explored) == shouldBeResult)
+    }
+  }
 
 	test("optimal solution for level 1") {
     new Level1 {
@@ -75,5 +101,4 @@ class BloxorzSuite extends FunSuite {
       assert(solution.length == optsolution.length)
     }
   }
-
 }

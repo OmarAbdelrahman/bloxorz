@@ -1,0 +1,15 @@
+compile
+test
+styleCheck
+compile
+test
+scalastyleGenerateConfig
+scalaSource
+scalaStyle
+scalastyle
+test:scalastyle
+styleCheck
+scalastyle
+submit omar.sebres@gmail.com J9zFGHjItF86yjHu
+test
+submit omar.sebres@gmail.com J9zFGHjItF86yjHu
